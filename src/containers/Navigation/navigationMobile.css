@@ -1,0 +1,107 @@
+.NavIcon {
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border: 3px solid #e9b350;
+    background-color: #e9b350;
+    z-index: 1200;
+}
+
+.NavIconMiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    border: 1.5px solid #fff;
+    transition: all .3s;
+}
+
+.NavIconMiddle.active{
+    opacity: 0;
+    border: 1.5px solid white;
+}
+.NavIconTop.active{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 1.5px solid white;
+}
+.NavIconBottom.active{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    border: 1.5px solid white;
+}
+
+.NavIconTop {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    border: 1.5px solid #fff;
+    transition: all .3s;
+}
+.NavIconBottom {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    border: 1.5px solid #fff;
+    transition: all .3s;
+}
+
+.Nav {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-color: #e9b350;
+    z-index: 1100;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all .4s;
+}
+@media (min-width: 900px) {
+    .Nav {
+        width: 30%;
+    }
+}
+
+.Nav.active {
+    transform: translateX(1px);
+}
+
+.clicked {
+    font-size: 2rem;
+}
+
+.Nav ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .Nav ul{
+        font-size: 1.1rem;
+    }
+}
+.Nav ul a {
+    text-decoration: none;
+    color: white;
+} 
+
+.Nav ul li {
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    transform: scale(1.3);
+    cursor: pointer;
+}

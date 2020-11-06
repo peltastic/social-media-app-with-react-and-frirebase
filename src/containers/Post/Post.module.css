@@ -1,0 +1,59 @@
+.Container {
+  position: relative;
+  border: 1px solid #d39d4d;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem auto;
+  width: 25rem;
+  font-weight: 500;
+}
+.Container .Post {
+  font-size: 1.4rem;
+  display: block;
+}
+
+.ContainerImage {
+  position: relative;
+  border: 1px solid #d39d4d;
+  padding: 1rem 1.2rem;
+  width: 25rem;
+  margin: 1.5rem auto;
+}
+
+.ContainerImage .Image {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.ProfilePic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.UserName {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: #d39d4d;
+}
+
+.LikeImage {
+  margin-top: 1.2rem;
+
+  border-radius: 10px;
+}
+
+.liked {
+  background-color: #d39d4d;
+}
+
+.DeleteImage {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  height: 2rem;
+  width: 2rem;
+}

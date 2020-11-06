@@ -1,0 +1,29 @@
+.Container {
+    position: fixed;
+    width: 100%;
+    border: 6px solid #d39d4d;
+    z-index: 2500;
+    height: 70%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 1rem;
+    background-color: white;
+    overflow: scroll;
+}
+
+.SendComment {
+    position: absolute;
+
+}
+
+.SendImage {
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+}
+
+.CancelImage {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

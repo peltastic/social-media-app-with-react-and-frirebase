@@ -1,0 +1,40 @@
+.Makepost {
+  position: fixed;
+  top: 85vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 100%;
+  padding: 1rem 0.2rem;
+  border: 1px solid #d39d4d;
+  background-color: #e9b350;
+}
+
+@media (min-width: 700px) {
+  .Makepost {
+    width: 70%;
+  }
+}
+
+.Media {
+  height: 2rem;
+  width: 2rem;
+}
+
+.InpFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.InpFile:focus {
+  outline: none;
+}
+
+.InpFile {
+  width: 0.2rem;
+}
+
+.Label {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}

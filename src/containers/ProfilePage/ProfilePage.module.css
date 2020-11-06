@@ -1,0 +1,54 @@
+.Container {
+  border: 1px solid #d39d4d;
+  padding: 2rem 1rem;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  .Container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) {
+  .Container {
+    width: 70%;
+  }
+}
+@media (min-width: 950px) {
+  .Container {
+    width: 55%;
+  }
+}
+
+.UserName {
+  font-size: 1.2rem;
+  color: rgb(109, 103, 103);
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.Bio {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.ImageContainer {
+  width: 7rem;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.ImageContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.MakepostContainer {
+  position: fixed;
+  top: 85vh;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  right: 2rem;
+}

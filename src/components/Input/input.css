@@ -1,0 +1,71 @@
+.input {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: all 0.2s;
+  width: 55%;
+}
+
+.input:focus {
+  outline: none;
+  transform: scale(1.1);
+  width: 70%;
+  border-bottom: 1px solid #d39d4d;
+  color: #d39d4d;
+}
+
+.input2 {
+  display: block;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: all 0.2s;
+  width: 55%;
+  background-color: transparent;
+  color: white;
+}
+
+.input2:focus {
+  outline: none;
+  transform: scale(1.1);
+  width: 70%;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+label {
+  color: #d39d4d;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.inpFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.inpFile:focus {
+  outline: none;
+}
+.inpFile:active {
+  border: 1px solid #d39d4d;
+}
+
+
+.inpFile {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  width: 5rem;
+}
+
+.notuploaded {
+  border: 1px solid #d39d4d;
+}
+
+.uploaded {
+  border: 1px solid #79ed3f;
+}

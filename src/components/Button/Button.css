@@ -1,0 +1,17 @@
+button {
+  padding: 0.7rem 1.5rem;
+  color: #d39d4d;
+  border: 1px solid #d39d4d;
+  background-color: white;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #d39d4d;
+  color: white;
+}
